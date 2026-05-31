@@ -5,25 +5,25 @@ class Snippet < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/borud/snippets/releases/download/snippets/v0.2.0/snippet_v0.2.0_darwin_arm64.tar.gz"
-      sha256 "a910f8fbc56f3ae16afc4146d1f708c17fea7cdbaecbea0b5cf022cdf8f457fa"
+      url "https://github.com/borud/snippets/releases/download/v0.2.0/snippet_v0.2.0_darwin_arm64.tar.gz"
+      sha256 "328e9c50ee645de69bbb40ec3574b538666074426d46dbe2fc4644c2fbbe4d3d"
     end
     on_intel do
-      url "https://github.com/borud/snippets/releases/download/snippets/v0.2.0/snippet_v0.2.0_darwin_amd64.tar.gz"
-      sha256 "a5d002349765147fb3e203afeb56dd33ae524c0ba1be2b686d2f4a9bdf217cb1"
+      url "https://github.com/borud/snippets/releases/download/v0.2.0/snippet_v0.2.0_darwin_amd64.tar.gz"
+      sha256 "fcc25aadc35f1a1ba13e0eaa771cbb7bb11dd201dea3a37c9c7a44c16ea3ff64"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/borud/snippets/releases/download/snippets/v0.2.0/snippet_v0.2.0_linux_arm64.tar.gz"
-        sha256 "d31b49b3ffb89ccb9cd2d248af82de393e6da0e885553a9947f6b3cc90e6067d"
+        url "https://github.com/borud/snippets/releases/download/v0.2.0/snippet_v0.2.0_linux_arm64.tar.gz"
+        sha256 "5b648822ee5062564fa2fb293acd40684e151a2cd264213690078633d4d77b3f"
       end
     end
     on_intel do
-      url "https://github.com/borud/snippets/releases/download/snippets/v0.2.0/snippet_v0.2.0_linux_amd64.tar.gz"
-      sha256 "ec3fedf749f1beb56313ee0c35699d035925de3f5fceb252494ea25a7ff93a9f"
+      url "https://github.com/borud/snippets/releases/download/v0.2.0/snippet_v0.2.0_linux_amd64.tar.gz"
+      sha256 "cc1bdded077d375db37cb1190e19df6ddb38e4076b43f28eb324b9ddb2c7ea14"
     end
   end
 
