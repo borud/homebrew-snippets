@@ -1,29 +1,29 @@
 class Snippet < Formula
   desc "CLI for managing snippets"
   homepage "https://s.borud.no"
-  version "v0.3.0"
+  version "v0.3.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/borud/snippets-releases/releases/download/v0.3.0/snippet_v0.3.0_darwin_arm64.tar.gz"
-      sha256 "022dbb072cadb325c1aaca15f3efeaf2eb0dff2a205b9d9e2975462fff224084"
+      url "https://github.com/borud/snippets-releases/releases/download/v0.3.1/snippet_v0.3.1_darwin_arm64.tar.gz"
+      sha256 "fa0026170f114702fe1301daa005968b5e125e204391ec7499e989a3b8bc0364"
     end
     on_intel do
-      url "https://github.com/borud/snippets-releases/releases/download/v0.3.0/snippet_v0.3.0_darwin_amd64.tar.gz"
-      sha256 "3ccf8f9aebd92594f9e0381d5d86a5b9cc1ef95476f17b0d58bc5a4e3e36f5a2"
+      url "https://github.com/borud/snippets-releases/releases/download/v0.3.1/snippet_v0.3.1_darwin_amd64.tar.gz"
+      sha256 "f8599bce36191a1c7de2e5d701e01b38bb1aa394d8005030c52b68a2eb818b51"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/borud/snippets-releases/releases/download/v0.3.0/snippet_v0.3.0_linux_arm64.tar.gz"
-        sha256 "c72977531a66c652e31754f1942d4164aefa9514cf1d24eb3a344556e52c6e6b"
+        url "https://github.com/borud/snippets-releases/releases/download/v0.3.1/snippet_v0.3.1_linux_arm64.tar.gz"
+        sha256 "b8c1bc08b99d0a7bae398ace83895c7addde8dd5faa3e6369d1392e31c28f22a"
       end
     end
     on_intel do
-      url "https://github.com/borud/snippets-releases/releases/download/v0.3.0/snippet_v0.3.0_linux_amd64.tar.gz"
-      sha256 "11865843baf09faddc52d78b926ee215d345fdc723031aa32f9ecacc6cf30edd"
+      url "https://github.com/borud/snippets-releases/releases/download/v0.3.1/snippet_v0.3.1_linux_amd64.tar.gz"
+      sha256 "96e7cb53ddcafe0f2d9ef8dadc83d5e3c72821634c33d00a60970147730343ee"
     end
   end
 
